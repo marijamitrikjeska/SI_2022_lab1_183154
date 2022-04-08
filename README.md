@@ -1,1 +1,2 @@
-# SI_2022_lab1_183154
+Marija Mitrikjeska 
+183154
