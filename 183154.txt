@@ -1,0 +1,66 @@
+Marija Mitrikjeska 183154
+
+1.C:\Users\Asus\Desktop>git config --global user.name marijamitrikjeska
+
+C:\Users\Asus\Desktop>git config --global user.email mitrikjeska.marija@yahoo.com- Податоци за идентификација на корисникот на кој работи на локалниот репозиториум.
+
+2.Промена на името на гранката во master
+
+3.Креираме репозиториум SI_2022_lab1_183154 и во README фајлот внесуваме име,презиме,број индекс.
+4.git clone https://github.com/marijamitrikjeska/SI_2022_lab1_183154.git- -Клонирање на remote репозиториумот на нашиот компјутер.
+
+5.git add shopping_list.txt -Со add  го додаваме shopping_list.txt фајлот во staging area.
+git commit -m "Add 5 items to the shopping list" -Потоа откако е додаден фајлот со commit го додаваме фајлот и сите направени промени на истиот  во нашиот локален 
+репозиториум.
+
+6.git add shopping_list.txt
+git commit -m "Add quantities to the items."
+
+7.git branch branch1 -Креираме нова гранка branch1
+  git branch branch2 -Креираме нова гранка branch2
+
+8.Документација
+
+9.git push origin master - Ги ставаме промените од нашиот локален репозиторум на remote репозиторимот.
+  git push origin branch1 -Синхронизирање на branch1 со remote репозиториумот.
+  git push origin branch2 -Синхронизирање на branch2 со remote репозиториумот.
+
+10.git checkout branch1 -Се префрламе на branch1
+
+11.git add shopping_list.txt
+   git commit -m "Change quantity of item #5"
+
+12.git checkout master -Се префрламе на мастер
+
+
+13.git add shopping_list.txt
+   git commit -m "Change quantity of item #2"
+
+14.git push origin master -Синхронизација со remote репозиториум
+   git checkout branch 1 -Се префрламе на branch1
+   git push origin branch1 -Синхронизација на branch1 со remote репозиториум
+
+15.git checkout branch2 -Се префрламе на branch2
+
+16.git add shopping_list.txt
+   git commit -m "Modify item #4”
+
+17.Документација
+
+18.git commit --amend -m "Modify item #4 and add item #6" - Модификација на порака на веќе постоечкиот commit.
+
+19.Документација
+
+20.git checkout master -Се префрламе на мастер
+   git merge branch1 -Спојување на branch1 со master.
+
+21.
+
+22.git add 183154.txt 
+   git commit -m "Add docs"
+
+23.git push origin master -Синхронизација со remote репозиториум.
+   
+
+
+
