@@ -2,4 +2,4 @@ LEB x2
 MLEKO x3
 SOK x1
 SMOKI x4
-CIPS x5
+CIPS x3
